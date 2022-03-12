@@ -5,27 +5,6 @@
     height: auto; overflow: hidden;
 }
 
-#contenidos #centro3{
-    width: 800px;
-    margin: auto; border: 1px solid; height: auto; overflow: hidden;
-}
 
-/*final*/
-
-#contenidos #centro3 #izquierda{
-    width: 390px;
-    height: auto; overflow: hidden;
-    border: 1px solid;
-    float: left;
-
-}
-
-#contenidos #centro3 #izquierda h3{
-    color: #0b6153;
-}
-
-#contenidos #centro3 #izquierda .descripcion{
-    text-align: left;
-}
 
 

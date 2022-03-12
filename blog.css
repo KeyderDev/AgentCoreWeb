@@ -73,12 +73,7 @@ nav ul li a:hover::before {
     margin: 10px auto;
 }
 
-#publicaciones{
-    width: 70%;
-    height: auto; overflow: hidden;
-    border: 1px solid red;
-    margin-top: 10px;
-}
+
 
 .post{
     width: 96%;

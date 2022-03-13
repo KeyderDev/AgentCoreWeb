@@ -4,48 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/inicio.css">
-    <link rel="stylesheet" href="css/blog1.css">
-    <title>AgentCore WebPage</title>
+    <title>AgentCore Webpage</title>
+
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body id="body">
+    
     <header>
-        <div class="menu">
-            <img src="imagenes/agentcore_img.png" alt="">
-            <nav>
-              <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Listado de Comandos</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="#">ToS y Licencia</a></li>
-                <li><a href="login.html">Login</a></li>
-                
-
-              </ul>
-            </nav>
-         
-
+        <div class="icon__menu">
+            <i class="fas fa-bars" id="btn_open"></i>
         </div>
     </header>
 
+    <div class="menu__side" id="menu_side">
 
-    <section class="blogcontent">
-      <div class="box">
-        <h3>Prueba</h3>
-        <p>potopotopotopotopotopoto</p>
-      </div>
+        <div class="name__page">
+            <i class="fab fa-youtube"></i>
+            <h4>AgentCore</h4>
+        </div>
 
-    </section>
+        <div class="options__menu">	
 
-    
+            <a href="index.html" class="selected">
+                <div class="option">
+                    <i class="fas fa-home" title="Inicio"></i>
+                    <h4>Inicio</h4>
+                </div>
+            </a>
 
+            <a href="blog.html">
+                <div class="option">
+                    <i class="far fa-file" title="Blog"></i>
+                    <h4>Blog</h4>
+                </div>
+            </a>
 
+            <a href="#">
+                <div class="option">
+                    <i class="far fa-file" title="Listado de Comandos"></i>
+                    <h4>Listado de Comandos</h4>
+                </div>
+            </a>
+            
 
+            <a href="#">
+                <div class="option">
+                    <i class="far fa-sticky-note" title="ToS"></i>
+                    <h4>ToS</h4>
+                </div>
+            </a>
 
+            <a href="#">
+                <div class="option">
+                    <i class="far fa-id-badge" title="Equipo"></i>
+                    <h4>Equipo</h4>
+                </div>
+            </a>
 
+        </div>
 
+    </div>
 
+    <main>
+        <h1>Bienvenido!</h1><br>
+        <p>Bienvenido al proyecto de AgentCore! Un bot de Discord que hara tu servidor mas personalizado, seguro y moderno.</p><br>
+    </main>
 
+    <script src="javascript/index.js"></script>
 </body>
 </html>
